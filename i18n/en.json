@@ -1,0 +1,102 @@
+{
+  "nav": {
+    "home": "Home",
+    "about": "About",
+    "career": "Career",
+    "projects": "Projects",
+    "skills": "Skills",
+    "contact": "Contact"
+  },
+  "hero": {
+    "title": "Engineer",
+    "name": "Daisuke Hasegawa",
+    "description": "Full-stack engineer specializing in Flutter, iOS (Swift), and Go. From mobile app development to cloud infrastructure — I handle it all. Founded and ran a development company for 10 years, now freelancing. My personal app \"Doodle Maker\" has reached 150K+ downloads.",
+    "btn_projects": "View Projects",
+    "btn_contact": "Contact Me"
+  },
+  "about": {
+    "title": "About Me",
+    "p1": "I've always been passionate about building things. Even while working full-time, I was developing web services and native apps on the side. That drive led me to start my own company, which I ran for about 10 years — leading contract development projects. Beyond just writing code, I specialize in DX consulting, setting up development teams, and providing end-to-end project support.",
+    "p2": "I can handle infrastructure on GCP/AWS, backend implementation, and native app development almost single-handedly for small-to-mid scale projects. I also have experience directing offshore development in Vietnam, including technical negotiations in English. Currently active as a freelance engineer focused on development support.",
+    "stat_experience": "Years Experience",
+    "stat_experience_value": "17+",
+    "stat_projects": "Projects Completed",
+    "stat_projects_value": "19+",
+    "stat_downloads": "App Downloads",
+    "stat_downloads_value": "150K+"
+  },
+  "career": {
+    "title": "Career",
+    "period1_title": "Freelance Engineer",
+    "period1_org": "Freelance",
+    "period1_date": "2025 - Present",
+    "period1_items": [
+      "Stepped down as company CEO, now active as a freelance development consultant",
+      "Serving as app development advisor across multiple projects",
+      "Continuing development work with Flutter, Go, and Swift"
+    ],
+    "period2_title": "Founder & CEO / Contract Development",
+    "period2_org": "Own Company (~10 years)",
+    "period2_date": "2014 - 2024",
+    "period2_items": [
+      "Founded and ran a development company for approximately 10 years",
+      "Led numerous projects as tech lead — including radiko, real estate management, and DX services — primarily using Flutter",
+      "Handled end-to-end delivery: GCP/AWS infrastructure, Go backend, and mobile frontend",
+      "Served as app development advisor for offshore development in Vietnam, conducting all technical communication in English",
+      "Delivered value in resource-constrained startup environments, from 0→1 development through to ongoing operations",
+      "Managed a team of designers and engineers, maintaining long-term client relationships spanning nearly a decade"
+    ],
+    "period3_title": "SIer & Social Game Development",
+    "period3_org": "Fujisoft → CyberAgent, etc.",
+    "period3_date": "2007 - 2013",
+    "period3_items": [
+      "Started career at a major SIer, training in C before transitioning to mobile game development",
+      "Spent ~4 years at CyberAgent developing social games with Flash and JavaScript",
+      "Led frontend development including Flash rendering engine selection and proposing alternative solutions for iOS",
+      "Gained experience working in large-scale teams of up to 100 members"
+    ]
+  },
+  "projects": {
+    "title": "Projects",
+    "doodle_title": "Doodle Maker",
+    "doodle_category": "iOS Application",
+    "doodle_description": "A feature-rich drawing app with various brushes, photo editing, and filter capabilities. 150K+ downloads. Personally handled everything from planning and design to implementation and operations.",
+    "doodle_link": "App Store",
+    "sketch_title": "Sketch Framework",
+    "sketch_category": "Open Source Library",
+    "sketch_description": "A drawing framework for iOS providing pen tools, erasers, stamps, and filters (neon, blur, etc.). 425+ GitHub Stars. Supports CocoaPods and Carthage.",
+    "sketch_link": "GitHub"
+  },
+  "skills": {
+    "title": "Skills",
+    "languages": "Languages",
+    "cloud": "Cloud / Infrastructure",
+    "specializations": "Specializations"
+  },
+  "skill_tags": {
+    "flutter": "Flutter Development",
+    "ios": "iOS Development",
+    "backend": "Backend Development",
+    "cloud_arch": "Cloud Architecture",
+    "offshore": "Offshore Development",
+    "tech_lead": "Tech Lead",
+    "team_building": "Team Building",
+    "zero_one": "0→1 Development"
+  },
+  "contact": {
+    "title": "Contact",
+    "heading": "Let's Work Together",
+    "description": "Whether you need mobile app development, technical consulting, or team building support — feel free to reach out.",
+    "label_name": "Your Name",
+    "label_email": "Your Email",
+    "label_message": "Your Message",
+    "btn_send": "Send Message",
+    "notification_success": "Thank you for your message! I'll get back to you soon.",
+    "notification_error_fields": "Please fill in all fields",
+    "notification_error_email": "Please enter a valid email address"
+  },
+  "footer": {
+    "copyright": "© 2025 Daisuke Hasegawa. All rights reserved.",
+    "tagline": "Engineer specializing in mobile app development and cloud infrastructure."
+  }
+}

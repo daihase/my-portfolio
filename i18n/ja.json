@@ -1,0 +1,102 @@
+{
+  "nav": {
+    "home": "ホーム",
+    "about": "自己紹介",
+    "career": "キャリア",
+    "projects": "プロジェクト",
+    "skills": "スキル",
+    "contact": "お問い合わせ"
+  },
+  "hero": {
+    "title": "Engineer",
+    "name": "長谷川 大輔",
+    "description": "Flutter / iOS / Go を軸に、モバイルアプリ開発からクラウドインフラ構築まで一気通貫で対応するエンジニア。受託開発の会社を約10年経営し、現在はフリーランスとして活動中。個人開発アプリ「Doodle Maker」は累計15万DL。",
+    "btn_projects": "プロジェクトを見る",
+    "btn_contact": "お問い合わせ"
+  },
+  "about": {
+    "title": "自己紹介",
+    "p1": "会社員時代からモノづくりが好きで、業務と並行してプライベートでもWebサービスやネイティブアプリの開発を行ってきました。その後起業し、約10年にわたり自社代表として受託開発を中心に活動。単なる開発請負だけでなく、DX推進、開発体制の立ち上げ、チームビルディングなど、プロジェクト全体を俯瞰した支援を得意としています。",
+    "p2": "GCP / AWS を用いたインフラ構築、バックエンド実装、ネイティブアプリ開発まで、それほど大規模でなければほぼ1人で完結できます。海外オフショア開発のディレクション経験もあり、英語での技術的な折衝も対応可能です。現在はフリーランスとして開発サポートをメインに活動しています。",
+    "stat_experience": "年以上の経験",
+    "stat_experience_value": "17+",
+    "stat_projects": "以上のプロジェクト",
+    "stat_projects_value": "19+",
+    "stat_downloads": "アプリDL数",
+    "stat_downloads_value": "150K+"
+  },
+  "career": {
+    "title": "キャリア",
+    "period1_title": "フリーランスエンジニア",
+    "period1_org": "フリーランス",
+    "period1_date": "2025 - 現在",
+    "period1_items": [
+      "自社代表を退き、フリーランスとして開発サポートをメインに活動",
+      "複数プロジェクトにアプリ開発アドバイザーとして参画",
+      "Flutter / Go / Swift を使った開発支援を継続中"
+    ],
+    "period2_title": "起業・自社代表 / 受託開発",
+    "period2_org": "自社経営（約10年）",
+    "period2_date": "2014 - 2024",
+    "period2_items": [
+      "受託開発の会社を設立し、代表として約10年間経営",
+      "Flutter を使ったモバイルアプリ開発を主軸に、radiko・不動産管理・DXサービスなど多数のプロジェクトでテックリードを務める",
+      "GCP / AWS を使ったインフラ構築・バックエンド（Go）実装まで一気通貫で対応",
+      "海外オフショア開発（ベトナム）にアプリ開発アドバイザーとして参画し、英語でのブリッジ折衝やチームビルディングを経験",
+      "スタートアップの0→1開発から運用まで、予算・リソースが限られた現場でバリューを発揮",
+      "デザイナー・エンジニアを抱え、複数クライアントと10年近い長期取引を継続"
+    ],
+    "period3_title": "SIer・ソーシャルゲーム開発",
+    "period3_org": "富士ソフト → CyberAgent 他",
+    "period3_date": "2007 - 2013",
+    "period3_items": [
+      "新卒でSIerに入社し、C言語でのOJTを経てモバイルゲーム開発へ転向",
+      "CyberAgent にて約4年間、Flash / JavaScript を使ったソーシャルゲーム開発に従事",
+      "フロントエンド開発を中心に、Flash合成エンジンの選定やiOS向け代替技術の提案なども担当",
+      "大規模チーム（最大100名規模）での開発経験を積む"
+    ]
+  },
+  "projects": {
+    "title": "プロジェクト",
+    "doodle_title": "Doodle Maker 〜落書きメーカー〜",
+    "doodle_category": "iOS アプリ",
+    "doodle_description": "多彩なブラシ、写真編集、フィルター機能を備えたお絵描きアプリ。累計約15万ダウンロード。個人開発で企画・設計・実装・運用までを一人で担当。",
+    "doodle_link": "App Store",
+    "sketch_title": "Sketch Framework",
+    "sketch_category": "オープンソースライブラリ",
+    "sketch_description": "iOS向けのお絵描きフレームワーク。ペンツール、消しゴム、スタンプ、フィルター（ネオン・ブラーなど）を提供。GitHub 425+ Stars。CocoaPods / Carthage 対応。",
+    "sketch_link": "GitHub"
+  },
+  "skills": {
+    "title": "スキル",
+    "languages": "言語",
+    "cloud": "クラウド / インフラ",
+    "specializations": "得意領域"
+  },
+  "skill_tags": {
+    "flutter": "Flutter 開発",
+    "ios": "iOS 開発",
+    "backend": "バックエンド開発",
+    "cloud_arch": "クラウド設計",
+    "offshore": "オフショア開発",
+    "tech_lead": "テックリード",
+    "team_building": "チームビルディング",
+    "zero_one": "0→1 開発"
+  },
+  "contact": {
+    "title": "お問い合わせ",
+    "heading": "お仕事のご相談",
+    "description": "モバイルアプリ開発、技術顧問、チームビルディングなど、お気軽にご連絡ください。",
+    "label_name": "お名前",
+    "label_email": "メールアドレス",
+    "label_message": "メッセージ",
+    "btn_send": "送信する",
+    "notification_success": "メッセージを送信しました。折り返しご連絡いたします。",
+    "notification_error_fields": "すべての項目を入力してください",
+    "notification_error_email": "有効なメールアドレスを入力してください"
+  },
+  "footer": {
+    "copyright": "© 2025 Daisuke Hasegawa. All rights reserved.",
+    "tagline": "モバイルアプリ開発とクラウドインフラを専門とするエンジニア"
+  }
+}

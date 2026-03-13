@@ -17,25 +17,14 @@
                 <h2>Daisuke Hasegawa</h2>
             </div>
             <ul class="nav-menu">
-                <li class="nav-item">
-                    <a href="#home" class="nav-link">Home</a>
-                </li>
-                <li class="nav-item">
-                    <a href="#about" class="nav-link">About</a>
-                </li>
-                <li class="nav-item">
-                    <a href="#experience" class="nav-link">Experience</a>
-                </li>
-                <li class="nav-item">
-                    <a href="#projects" class="nav-link">Projects</a>
-                </li>
-                <li class="nav-item">
-                    <a href="#skills" class="nav-link">Skills</a>
-                </li>
-                <li class="nav-item">
-                    <a href="#contact" class="nav-link">Contact</a>
-                </li>
+                <li class="nav-item"><a href="#home" class="nav-link" data-i18n="nav.home">Home</a></li>
+                <li class="nav-item"><a href="#about" class="nav-link" data-i18n="nav.about">About</a></li>
+                <li class="nav-item"><a href="#career" class="nav-link" data-i18n="nav.career">Career</a></li>
+                <li class="nav-item"><a href="#projects" class="nav-link" data-i18n="nav.projects">Projects</a></li>
+                <li class="nav-item"><a href="#skills" class="nav-link" data-i18n="nav.skills">Skills</a></li>
+                <li class="nav-item"><a href="#contact" class="nav-link" data-i18n="nav.contact">Contact</a></li>
             </ul>
+            <button class="lang-toggle" id="langToggle" aria-label="Switch language">EN / JP</button>
             <div class="hamburger">
                 <span class="bar"></span>
                 <span class="bar"></span>
@@ -48,15 +37,12 @@
     <section id="home" class="hero">
         <div class="hero-container">
             <div class="hero-content">
-                <h1 class="hero-title">Engineer</h1>
-                <h2 class="hero-subtitle">Daisuke Hasegawa</h2>
-                <p class="hero-description">
-                    Passionate engineer specializing in mobile app development with Flutter/Dart and iOS with Swift. 
-                    Creator of popular drawing apps with millions of users worldwide, with expertise in cloud infrastructure.
-                </p>
+                <h1 class="hero-title" data-i18n="hero.title">Engineer</h1>
+                <h2 class="hero-subtitle" data-i18n="hero.name">Daisuke Hasegawa</h2>
+                <p class="hero-description" data-i18n="hero.description"></p>
                 <div class="hero-buttons">
-                    <a href="#projects" class="btn btn-primary">View Projects</a>
-                    <a href="#contact" class="btn btn-secondary">Contact Me</a>
+                    <a href="#projects" class="btn btn-primary" data-i18n="hero.btn_projects">View Projects</a>
+                    <a href="#contact" class="btn btn-secondary" data-i18n="hero.btn_contact">Contact Me</a>
                 </div>
             </div>
             <div class="hero-image">
@@ -70,30 +56,23 @@
     <!-- About Section -->
     <section id="about" class="about">
         <div class="container">
-            <h2 class="section-title">About Me</h2>
+            <h2 class="section-title" data-i18n="about.title">About Me</h2>
             <div class="about-content">
                 <div class="about-text">
-                    <p>
-                        I'm a dedicated engineer with extensive experience in mobile app development and cloud infrastructure. 
-                        My passion lies in creating intuitive and engaging user experiences that solve real-world problems across multiple platforms.
-                    </p>
-                    <p>
-                        I have successfully developed and published multiple mobile applications using Flutter/Dart and Swift, including the popular 
-                        "Doodle Maker" drawing app that has reached users worldwide. I also maintain and contribute 
-                        to open-source projects, including the Sketch framework for iOS drawing applications.
-                    </p>
+                    <p data-i18n="about.p1"></p>
+                    <p data-i18n="about.p2"></p>
                     <div class="stats">
                         <div class="stat">
-                            <h3>5+</h3>
-                            <p>Years Experience</p>
+                            <h3 data-i18n="about.stat_experience_value">17+</h3>
+                            <p data-i18n="about.stat_experience">Years Experience</p>
                         </div>
                         <div class="stat">
-                            <h3>10+</h3>
-                            <p>Projects Completed</p>
+                            <h3 data-i18n="about.stat_projects_value">19+</h3>
+                            <p data-i18n="about.stat_projects">Projects Completed</p>
                         </div>
                         <div class="stat">
-                            <h3>1M+</h3>
-                            <p>App Downloads</p>
+                            <h3 data-i18n="about.stat_downloads_value">150K+</h3>
+                            <p data-i18n="about.stat_downloads">App Downloads</p>
                         </div>
                     </div>
                 </div>
@@ -101,72 +80,36 @@
         </div>
     </section>
 
-    <!-- Experience Section -->
-    <section id="experience" class="experience">
+    <!-- Career Section -->
+    <section id="career" class="career">
         <div class="container">
-            <h2 class="section-title">Professional Experience</h2>
+            <h2 class="section-title" data-i18n="career.title">Career</h2>
             <div class="timeline">
                 <div class="timeline-item">
                     <div class="timeline-dot"></div>
                     <div class="timeline-content">
-                        <h3>Senior iOS Developer</h3>
-                        <h4>Libra Studio, Inc.</h4>
-                        <p class="timeline-date">2019 - Present</p>
-                        <ul>
-                            <li>Lead developer for "Doodle Maker" - a popular drawing app with over 1M downloads</li>
-                            <li>Implemented advanced drawing features including brush systems, layer management, and photo editing capabilities</li>
-                            <li>Optimized app performance resulting in 40% faster rendering and improved user experience</li>
-                            <li>Collaborated with design team to implement pixel-perfect UI/UX designs</li>
-                            <li>Maintained app compatibility across iOS versions 14.0+ and multiple device types</li>
-                        </ul>
+                        <h3 data-i18n="career.period1_title">Freelance Engineer</h3>
+                        <h4 data-i18n="career.period1_org">Freelance</h4>
+                        <p class="timeline-date" data-i18n="career.period1_date">2025 - Present</p>
+                        <ul data-i18n-list="career.period1_items"></ul>
                     </div>
                 </div>
-                
                 <div class="timeline-item">
                     <div class="timeline-dot"></div>
                     <div class="timeline-content">
-                        <h3>iOS Developer & Open Source Maintainer</h3>
-                        <h4>Freelance / Open Source</h4>
-                        <p class="timeline-date">2017 - Present</p>
-                        <ul>
-                            <li>Created and maintain "Sketch" - an open-source iOS drawing framework used by developers worldwide</li>
-                            <li>Framework supports Swift 4.0+ and Swift 5, with comprehensive drawing tools and filters</li>
-                            <li>Implemented advanced features: Pen tools, Eraser, Stamp tools, Fill operations, Undo/Redo functionality</li>
-                            <li>Added specialized drawing filters including Neon and Blur effects</li>
-                            <li>Provided comprehensive documentation and example applications for developer adoption</li>
-                            <li>Maintained compatibility with CocoaPods and Carthage package managers</li>
-                        </ul>
+                        <h3 data-i18n="career.period2_title">Founder &amp; CEO / Contract Development</h3>
+                        <h4 data-i18n="career.period2_org">Own Company (~10 years)</h4>
+                        <p class="timeline-date" data-i18n="career.period2_date">2014 - 2024</p>
+                        <ul data-i18n-list="career.period2_items"></ul>
                     </div>
                 </div>
-
                 <div class="timeline-item">
                     <div class="timeline-dot"></div>
                     <div class="timeline-content">
-                        <h3>Mobile App Developer</h3>
-                        <h4>Various Projects</h4>
-                        <p class="timeline-date">2016 - 2019</p>
-                        <ul>
-                            <li>Developed multiple iOS applications focusing on creativity and productivity tools</li>
-                            <li>Implemented camera integration and photo manipulation features</li>
-                            <li>Created custom UI components and animations for enhanced user experience</li>
-                            <li>Worked with REST APIs and local data persistence using Core Data</li>
-                            <li>Published apps to App Store following Apple's guidelines and best practices</li>
-                        </ul>
-                    </div>
-                </div>
-
-                <div class="timeline-item">
-                    <div class="timeline-dot"></div>
-                    <div class="timeline-content">
-                        <h3>Software Developer</h3>
-                        <h4>Early Career</h4>
-                        <p class="timeline-date">2014 - 2016</p>
-                        <ul>
-                            <li>Started career in software development with focus on mobile technologies</li>
-                            <li>Learned Swift programming language and iOS development fundamentals</li>
-                            <li>Built foundation in object-oriented programming and software design patterns</li>
-                            <li>Gained experience with version control systems and collaborative development</li>
-                        </ul>
+                        <h3 data-i18n="career.period3_title">SIer &amp; Social Game Development</h3>
+                        <h4 data-i18n="career.period3_org">Fujisoft → CyberAgent, etc.</h4>
+                        <p class="timeline-date" data-i18n="career.period3_date">2007 - 2013</p>
+                        <ul data-i18n-list="career.period3_items"></ul>
                     </div>
                 </div>
             </div>
@@ -176,22 +119,16 @@
     <!-- Projects Section -->
     <section id="projects" class="projects">
         <div class="container">
-            <h2 class="section-title">Featured Projects</h2>
+            <h2 class="section-title" data-i18n="projects.title">Projects</h2>
             <div class="projects-grid">
                 <div class="project-card featured">
-                    <div class="project-image">
-                        <div class="app-icon">
-                            <span>🎨</span>
-                        </div>
+                    <div class="project-image doodle-image">
+                        <img src="images/doodlemaker_screenshot.png" alt="Doodle Maker" class="app-screenshot">
                     </div>
                     <div class="project-content">
-                        <h3>Doodle Maker - Drawing App</h3>
-                        <p class="project-category">iOS Application</p>
-                        <p>
-                            A comprehensive drawing application for iOS featuring advanced brush systems, 
-                            photo editing capabilities, and creative tools. Published on the App Store with 
-                            over 1 million downloads.
-                        </p>
+                        <h3 data-i18n="projects.doodle_title">Doodle Maker</h3>
+                        <p class="project-category" data-i18n="projects.doodle_category">iOS Application</p>
+                        <p data-i18n="projects.doodle_description"></p>
                         <div class="project-features">
                             <span class="feature-tag">Swift</span>
                             <span class="feature-tag">UIKit</span>
@@ -199,24 +136,18 @@
                             <span class="feature-tag">Photo Editing</span>
                         </div>
                         <div class="project-links">
-                            <a href="https://apps.apple.com/us/app/drawing-app-doodle-maker/id1185784566" class="project-link" target="_blank">App Store</a>
+                            <a href="https://apps.apple.com/jp/app/doodle-maker-%E8%90%BD%E6%9B%B8%E3%81%8D%E3%83%A1%E3%83%BC%E3%82%AB%E3%83%BC/id1185784566" class="project-link" target="_blank" data-i18n="projects.doodle_link">App Store</a>
                         </div>
                     </div>
                 </div>
-
                 <div class="project-card">
                     <div class="project-image">
-                        <div class="app-icon">
-                            <span>📝</span>
-                        </div>
+                        <div class="app-icon"><span>&#x2712;</span></div>
                     </div>
                     <div class="project-content">
-                        <h3>Sketch Framework</h3>
-                        <p class="project-category">Open Source Library</p>
-                        <p>
-                            A powerful iOS framework that provides essential drawing functionality for developers. 
-                            Includes pen tools, erasers, stamps, filters, and comprehensive drawing capabilities.
-                        </p>
+                        <h3 data-i18n="projects.sketch_title">Sketch Framework</h3>
+                        <p class="project-category" data-i18n="projects.sketch_category">Open Source Library</p>
+                        <p data-i18n="projects.sketch_description"></p>
                         <div class="project-features">
                             <span class="feature-tag">Swift 5</span>
                             <span class="feature-tag">CocoaPods</span>
@@ -224,29 +155,7 @@
                             <span class="feature-tag">Open Source</span>
                         </div>
                         <div class="project-links">
-                            <a href="https://github.com/daihase/Sketch" class="project-link" target="_blank">GitHub</a>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="project-card">
-                    <div class="project-image">
-                        <div class="app-icon">
-                            <span>🖼️</span>
-                        </div>
-                    </div>
-                    <div class="project-content">
-                        <h3>Photo Enhancement Tools</h3>
-                        <p class="project-category">iOS Components</p>
-                        <p>
-                            Custom photo editing components including filters like Sepia, Monochrome, 
-                            Retro, and Invert effects. Integrated into multiple drawing applications.
-                        </p>
-                        <div class="project-features">
-                            <span class="feature-tag">Core Image</span>
-                            <span class="feature-tag">Metal</span>
-                            <span class="feature-tag">Image Processing</span>
-                            <span class="feature-tag">Custom Filters</span>
+                            <a href="https://github.com/daihase/Sketch" class="project-link" target="_blank" data-i18n="projects.sketch_link">GitHub</a>
                         </div>
                     </div>
                 </div>
@@ -257,67 +166,65 @@
     <!-- Skills Section -->
     <section id="skills" class="skills">
         <div class="container">
-            <h2 class="section-title">Technical Skills</h2>
+            <h2 class="section-title" data-i18n="skills.title">Skills</h2>
             <div class="skills-grid">
                 <div class="skill-category">
-                    <h3>Programming Languages</h3>
+                    <h3 data-i18n="skills.languages">Languages</h3>
                     <div class="skill-list">
                         <div class="skill-item">
-                            <span class="skill-name">Dart</span>
-                            <div class="skill-bar">
-                                <div class="skill-progress" style="width: 95%"></div>
-                            </div>
+                            <span class="skill-name">Dart (Flutter)</span>
+                            <div class="skill-bar"><div class="skill-progress" style="width: 95%"></div></div>
                         </div>
                         <div class="skill-item">
                             <span class="skill-name">Swift</span>
-                            <div class="skill-bar">
-                                <div class="skill-progress" style="width: 90%"></div>
-                            </div>
+                            <div class="skill-bar"><div class="skill-progress" style="width: 90%"></div></div>
                         </div>
                         <div class="skill-item">
                             <span class="skill-name">Go</span>
-                            <div class="skill-bar">
-                                <div class="skill-progress" style="width: 85%"></div>
-                            </div>
+                            <div class="skill-bar"><div class="skill-progress" style="width: 80%"></div></div>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">JavaScript / Node.js</span>
+                            <div class="skill-bar"><div class="skill-progress" style="width: 75%"></div></div>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">Java</span>
+                            <div class="skill-bar"><div class="skill-progress" style="width: 70%"></div></div>
                         </div>
                     </div>
                 </div>
-
                 <div class="skill-category">
-                    <h3>Cloud Platforms</h3>
+                    <h3 data-i18n="skills.cloud">Cloud / Infrastructure</h3>
                     <div class="skill-list">
                         <div class="skill-item">
                             <span class="skill-name">Google Cloud Platform</span>
-                            <div class="skill-bar">
-                                <div class="skill-progress" style="width: 90%"></div>
-                            </div>
+                            <div class="skill-bar"><div class="skill-progress" style="width: 90%"></div></div>
                         </div>
                         <div class="skill-item">
                             <span class="skill-name">Amazon Web Services</span>
-                            <div class="skill-bar">
-                                <div class="skill-progress" style="width: 85%"></div>
-                            </div>
+                            <div class="skill-bar"><div class="skill-progress" style="width: 85%"></div></div>
                         </div>
                         <div class="skill-item">
                             <span class="skill-name">Firebase</span>
-                            <div class="skill-bar">
-                                <div class="skill-progress" style="width: 95%"></div>
-                            </div>
+                            <div class="skill-bar"><div class="skill-progress" style="width: 95%"></div></div>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">Docker</span>
+                            <div class="skill-bar"><div class="skill-progress" style="width: 80%"></div></div>
                         </div>
                     </div>
                 </div>
-
                 <div class="skill-category">
-                    <h3>Specializations</h3>
+                    <h3 data-i18n="skills.specializations">Specializations</h3>
                     <div class="skill-tags">
-                        <span class="skill-tag">Flutter Development</span>
-                        <span class="skill-tag">iOS Development</span>
-                        <span class="skill-tag">Android Development</span>
-                        <span class="skill-tag">Cloud Architecture</span>
-                        <span class="skill-tag">Backend Development</span>
-                        <span class="skill-tag">App Store Publishing</span>
-                        <span class="skill-tag">Open Source Development</span>
-                        <span class="skill-tag">Graphics Programming</span>
+                        <span class="skill-tag" data-i18n="skill_tags.flutter">Flutter Development</span>
+                        <span class="skill-tag" data-i18n="skill_tags.ios">iOS Development</span>
+                        <span class="skill-tag" data-i18n="skill_tags.backend">Backend Development</span>
+                        <span class="skill-tag" data-i18n="skill_tags.cloud_arch">Cloud Architecture</span>
+                        <span class="skill-tag" data-i18n="skill_tags.offshore">Offshore Development</span>
+                        <span class="skill-tag" data-i18n="skill_tags.tech_lead">Tech Lead</span>
+                        <span class="skill-tag" data-i18n="skill_tags.team_building">Team Building</span>
+                        <span class="skill-tag" data-i18n="skill_tags.zero_one">0→1 Development</span>
                     </div>
                 </div>
             </div>
@@ -327,26 +234,28 @@
     <!-- Contact Section -->
     <section id="contact" class="contact">
         <div class="container">
-            <h2 class="section-title">Get In Touch</h2>
+            <h2 class="section-title" data-i18n="contact.title">Contact</h2>
             <div class="contact-content">
                 <div class="contact-info">
-                    <h3>Let's Work Together</h3>
-                    <p>
-                        I'm always interested in new opportunities and exciting projects. 
-                        Whether you're looking for an iOS developer or want to collaborate 
-                        on open-source projects, feel free to reach out!
-                    </p>
+                    <h3 data-i18n="contact.heading">Let's Work Together</h3>
+                    <p data-i18n="contact.description"></p>
                     <div class="contact-links">
-                        <a href="https://github.com/daihase" class="contact-link">
-                            <span class="contact-icon">📧</span>
+                        <a href="https://github.com/daihase" class="contact-link" target="_blank">
+                            <span class="contact-icon">
+                                <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/></svg>
+                            </span>
                             GitHub
                         </a>
                         <a href="mailto:vermouth.6969@gmail.com" class="contact-link">
-                            <span class="contact-icon">✉️</span>
+                            <span class="contact-icon">
+                                <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M20 4H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z"/></svg>
+                            </span>
                             Email
                         </a>
-                        <a href="https://apps.apple.com/developer/libra-studio-inc/id877278186" class="contact-link">
-                            <span class="contact-icon">📱</span>
+                        <a href="https://apps.apple.com/developer/libra-studio-inc/id877278186" class="contact-link" target="_blank">
+                            <span class="contact-icon">
+                                <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M18.71 19.5c-.83 1.24-1.71 2.45-3.05 2.47-1.34.03-1.77-.79-3.29-.79-1.53 0-2 .77-3.27.82-1.31.05-2.3-1.32-3.14-2.53C4.25 17 2.94 12.45 4.7 9.39c.87-1.52 2.43-2.48 4.12-2.51 1.28-.02 2.5.87 3.29.87.78 0 2.26-1.07 3.8-.91.65.03 2.47.26 3.64 1.98-.09.06-2.17 1.28-2.15 3.81.03 3.02 2.65 4.03 2.68 4.04-.03.07-.42 1.44-1.38 2.83M13 3.5c.73-.83 1.94-1.46 2.94-1.5.13 1.17-.34 2.35-1.04 3.19-.69.85-1.83 1.51-2.95 1.42-.15-1.15.41-2.35 1.05-3.11z"/></svg>
+                            </span>
                             App Store
                         </a>
                     </div>
@@ -354,18 +263,18 @@
                 <div class="contact-form">
                     <form>
                         <div class="form-group">
-                            <input type="text" id="name" name="name" required>
-                            <label for="name">Your Name</label>
+                            <input type="text" id="name" name="name" placeholder=" " required>
+                            <label for="name" data-i18n="contact.label_name">Your Name</label>
                         </div>
                         <div class="form-group">
-                            <input type="email" id="email" name="email" required>
-                            <label for="email">Your Email</label>
+                            <input type="email" id="email" name="email" placeholder=" " required>
+                            <label for="email" data-i18n="contact.label_email">Your Email</label>
                         </div>
                         <div class="form-group">
-                            <textarea id="message" name="message" required></textarea>
-                            <label for="message">Your Message</label>
+                            <textarea id="message" name="message" placeholder=" " required></textarea>
+                            <label for="message" data-i18n="contact.label_message">Your Message</label>
                         </div>
-                        <button type="submit" class="btn btn-primary">Send Message</button>
+                        <button type="submit" class="btn btn-primary" data-i18n="contact.btn_send">Send Message</button>
                     </form>
                 </div>
             </div>
@@ -376,8 +285,8 @@
     <footer class="footer">
         <div class="container">
             <div class="footer-content">
-                <p>&copy; 2024 Daisuke Hasegawa. All rights reserved.</p>
-                <p>Engineer specializing in mobile app development and cloud infrastructure.</p>
+                <p data-i18n="footer.copyright"></p>
+                <p data-i18n="footer.tagline"></p>
             </div>
         </div>
     </footer>
